@@ -1,3 +1,7 @@
+package homewor.com.firstHomework;
+
+
+
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Scanner;
@@ -53,7 +57,7 @@ class test {
         solution.sortLost(lostArray);
         Scanner s=new Scanner(System.in);
     String key=s.next();
-   Lost []select= solution.selectByKeyword(lostArray,key);
+   Lost[]select= solution.selectByKeyword(lostArray,key);
    for(Lost i:select)
        System.out.println("查询物品编号为"+i.id+"    请前往"+i.rPlace+"领取");
     }
